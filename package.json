@@ -1,0 +1,18 @@
+{
+  "name": "chen888-test-npm",
+  "version": "1.0.0",
+  "description": "我的第一个npm包",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hero-chen/chen888-test-npm"
+  },
+  "keywords": [
+    "chen888"
+  ],
+  "author": "chen888",
+  "license": "ISC"
+}
