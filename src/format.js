@@ -1,5 +1,5 @@
 // b. format.js 格式化文件
-const Validate = {
+export const Validate = {
   /**
    * 手机号校验
    */
@@ -19,5 +19,3 @@ const Validate = {
   emailCheck: (value) =>
     /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/.test(value),
 };
-
-export default Validate;
